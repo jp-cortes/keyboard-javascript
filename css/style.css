@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+#keyboard-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10.0rem;
+}
+ .layer {
+    background-color: brown;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+
+ }
+ .key{
+    width: 6.8rem;
+ }
